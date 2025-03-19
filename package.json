@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DSAW-2025-I/express-101-devstorm/issues"
   },
-  "homepage": "https://github.com/DSAW-2025-I/express-101-devstorm#readme"
+  "homepage": "https://github.com/DSAW-2025-I/express-101-devstorm#readme",
+  "dependencies": {
+    "expres": "^0.0.5"
+  }
 }
