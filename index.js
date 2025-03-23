@@ -16,7 +16,7 @@ const students = {
         email:"manuelcar@unisabana.edu.co",
         id:"322089"
     }
-}
+};
 
 app.get('/user-info/:id', (req, res) => {
     const studentId= req.params.id;
@@ -26,7 +26,8 @@ app.get('/user-info/:id', (req, res) => {
     }
 
     res.json(students[studentId]);
-})
+});
 
-
-
+app.listen(port, () => {
+    console.log('Listening on port', port);
+});
